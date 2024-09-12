@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ButtonColorChange</string>
+    <string name="ChangeColor1">Click here</string>
+    <string name="ChangeColor2">Click here</string>
+    <string name="change_layout_color">Change layout Color</string>
+
+</resources>

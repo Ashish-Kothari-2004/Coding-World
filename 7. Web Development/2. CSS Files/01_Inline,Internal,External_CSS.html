@@ -1,0 +1,73 @@
+<!--
+1. Inline CSS: 
+Inline CSS is a method of applying styling directly to individual HTML elements using the “style” attribute within the HTML tag, allowing for specific styling of individual elements within the HTML document, overriding any external or internal styles.
+-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS</title>
+</head>
+<body style = "background-color: rgb(22, 56, 230)">
+    <div style = "color: #ff01cc">
+        Inine CSS demonstration 
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- 
+2. Internal or Embedded CSS:
+Internal or Embedded CSS is defined within the HTML document’s <style> element. It applies styles to specified HTML elements, The CSS rule set should be within the HTML file in the head section i.e. the CSS is embedded within the <style> tag inside the head section of the HTML file.
+-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        body{
+            background-color: rgb(22, 56, 230)
+        }
+        div{
+            color: #ff01cc;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        Internal or Embedded CSS demonstration 
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- 
+3. External CSS: 
+External CSS contains separate CSS files that contain only style properties with the help of tag attributes (For example class, id, heading, … etc). CSS property is written in a separate file with a .css extension and should be linked to the HTML document using a link tag. It means that, for each element, style can be set only once and will be applied across web pages.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External CSS</title>
+    <link rel="stylesheet" href="01_External_CSS.css" />
+  </head>
+  <body>
+    <div>External CSS demonstration</div>
+  </body>
+</html>
+
+
+<!--
+Some Important points: 
+1. Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority. 
+2. Internal or Embedded stands second in the priority list and overrides the styles in the external style sheet.
+3. External style sheets have the least priority. If there are no styles defined either in inline or internal style sheet then external style sheet rules are applied for the HTML tags.
+ -->

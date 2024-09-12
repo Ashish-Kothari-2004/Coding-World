@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diet Plan</title>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="diet-script.js"></script>
+  </head>
+  <body style="background-color: rgba(145, 235, 224, 0.332)">
+    <h2 id = "diet-head">Enter Your Data For Diet Plan</h2>
+    <form>
+      
+      <div class="diet-data">
+        <label for="age">Enter you Age (10-80): </label>
+        <input type="text" id="age" placeholder="Enter your Age" />
+      </div>
+      <br />
+      <br />
+
+      <div class="diet-data">
+        <label for="weight">Enter you Weight(50-100): </label>
+        <input type="text" id="weight" placeholder="Enter your weight" />
+      </div>
+      <br />
+      <br />
+
+      <div class="diet-data">
+        <label for="level">Please select one of the following level: </label>
+        <select name="" id="level">
+          <option value="">select one</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Advance">Advance</option>
+        </select>
+      </div>
+      <br />
+      <br />
+
+      <div class="diet-data">
+        <label for="height">Enter you Height in cm(100- 200): </label>
+        <input type="text" id="height" placeholder="Enter your height" />
+      </div>
+      <br />
+      <br />
+
+      <div class="diet-data">
+        <label>Select your gender: </label>
+        <label for="male">Male </label>
+        <input type="radio" id="male" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+      </div>
+      <br />
+      <br />
+
+      <button type="button" onclick="plan()">Submit</button>
+      <br />
+      <br />
+    </form>
+
+    <!-- Display diet plan -->
+    <h1 id="plan"></h1>
+    <div id="diet-plan"></div>
+  </body>
+</html>

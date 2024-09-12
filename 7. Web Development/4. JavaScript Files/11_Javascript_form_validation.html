@@ -1,0 +1,65 @@
+<!-- 
+JavaScript Form Validation:
+JavaScript Form Validation ensures data integrity by verifying user input before submission. It validates fields like passwords, emails, and selections, providing alerts for invalid data, and enhancing user experience and data accuracy.
+    
+Types of Form Validation:
+1. Client-side validation: JavaScript is typically used to validate forms on the user’s browser before submission. This provides immediate feedback to users and prevents unnecessary server requests.
+2. Server-side validation: Even with client-side validation, it’s crucial to re-validate form data on the server-side. This reduce any potential issues that might arise due to disabled JavaScript or browser manipulation.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From validation</title>
+  </head>
+  <body>
+    <form "return data();">
+      Enter your name: <input type="text" id="id1" />
+      <br />
+      <br />
+      Enter your phone no: <input type="text" id="id2" />
+      <br />
+      <br />
+      Enter your email address : <input type="email" id="id3" />
+      <br />
+      <br />
+      Enter passwords: <input type="password" id="id4" />
+      <br />
+      <br />
+      Confirm password: <input type="password" id="id5" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      function data() {
+        let a = document.getElementById("id1").value;
+        let b = document.getElementById("id2").value;
+        let c = document.getElementById("id3").value;
+        let d = document.getElementById("id4").value;
+        let e = document.getElementById("id5").value;
+
+        if (a == "" || b == "" || c == "" || d == "" || e == "") {
+          alert("All fields are mandatory");
+          return false;
+        } else if (b.length != 10) {
+          alert("No. should be of 10 digit!!");
+          return false;
+        } else if (isNaN(b)) {
+          alert("Only numbers are allowed !!");
+          return false;
+        } else if (d != e) {
+          alert("Please enter same password!!");
+          return false;
+        }
+        else{
+            return true;
+        }
+      }
+    </script>
+  </body>
+</html>

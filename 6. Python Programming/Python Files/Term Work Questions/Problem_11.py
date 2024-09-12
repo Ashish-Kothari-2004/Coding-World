@@ -1,0 +1,1 @@
+# 11. Write a python program having a user defined function which will calculate the total number of vowels used in string entered by a user.

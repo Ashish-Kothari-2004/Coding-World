@@ -1,0 +1,1 @@
+# 6. Consider any long string. Now replace each space between two words with the tab (i.e. the space created when you press the key 'Tab' from your keyboard).

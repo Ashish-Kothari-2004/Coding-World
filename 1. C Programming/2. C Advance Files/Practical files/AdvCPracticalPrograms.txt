@@ -1,0 +1,28 @@
+1. Program to create a structure of Book, read the values and display the result.
+2. Program to enter two points and then calculate the distance between them.
+3. Program to enter full name and date of birth of a person & display the same. Use nested structure.
+4. Program to read and display the information of all the students in the class. 
+5. Program to pass entire structure to a user defined function.
+6. Program to find the biggest of three numbers using pointers.
+7. Program to add two integers using functions and pointers.
+8. Program to enter a character and then determine whether it is a vowel or not using pointers.
+9. Program to test whether a number is positive, negative or equal to zero using pointers.
+10. Program to find mean of n numbers using arrays.
+11. Program to read and display a 3 X 3 matrix.
+12. Program to declare pointer as members of structure and display the contents of the structure.
+13. Program to pass address of structure variable to user defined function and display the contents.
+14. Program to use different bitwise operators between the two integers & display the results.
+15. Program to shift inputed data by two bits right/left.
+16. Program to print bit pattern of a 16 bit integer.
+17. Program to swap the first 8 bits with the last 8 bits in a given unsigned 16 bit integer.
+18. Program to find the length of a sting
+19. Program to convert characters of a string to other case
+20. Program to Concatenate two strings.
+21. Program to Compare two Strings
+22. Program to read and print a text. Also count the number of characters, words, and lines in the text.
+23. Program to copy n characters of a character array from the mth position in another character array using pointers.
+24. Program to read a file character by character, & display it simultaneously on the screen.
+25. Program to count the number of characters and number of lines in a file.
+26. Program to copy one file into another.
+27. Program to read the details of a student and then print it on the screen as well as write it into a file.
+28. Program to edit the record of a particular student.

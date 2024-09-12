@@ -1,0 +1,5 @@
+This is file 7
+This is the context of demo7.txt
+ashish
+kothari,
+23

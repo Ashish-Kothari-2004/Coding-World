@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Fonts, text and color property</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Sedan+SC&display=swap");
+      p {
+        /* font-style: italic; */
+        /* font-style: oblique; */
+        /* font-weight: bold; */
+        /* font-weight: lighter; */
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 23px;
+      
+      }
+      div{
+        /* text-align: center; */
+        /* text-decoration:underline; */
+        /* text-transform: capitalize; */
+        /* text-align-last:right; */
+        /* text-indent: 50%;   */
+        /* letter-spacing:2px;  */
+        /* word-spacing:7px; */
+        /* line-height: 4;*/
+        text-shadow:2px 2px 2px rgb(244, 129, 148);
+      }
+
+      .col{
+        /* 1. Using color name */
+        /* color:darkorange; */
+
+        /* 2. rgb(red, green, blue) */
+        /* color:rgb(255, 0, 0); */
+
+        /* rgba(red, gree, blue, alpha) */
+        /* color: rgba(255,00, 00, 0.5); */
+
+        /* 3. Hex color */
+        /* color:#00ff00; */
+
+        /* 3.Hex with alpha */
+        /* color:#00ff0077;*/
+
+        /* 4. hsl(hue, saturation, lightness) */
+        color:hsl(120, 10%, 60%);
+        
+        /* 
+        4. hsla(hue, saturation, lightness, alpha)
+        Hue is a degree on the color wheel (from 0 to 360) - 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value; 0% means a shade of gray and 100% is the full color. Lightness is also a percentage; 0% is black, 100% is white.
+        */
+        color:hsl(00, 40%, 40%, 0.2);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Fonts</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quae neque ipsa sed distinctio, facilis nihil possimus voluptate tempore. Necessitatibus molestiae, ab, nisi tempora, ad omnis dolore aut enim maiores velit ut!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis voluptatibus veniam, voluptas perferendis culpa, tempore quia et voluptate mollitia ex aliquid facere voluptates inventore. Aspernatur culpa facilis reiciendis rerum dicta libero, incidunt modi nam quasi, distinctio asperiores nemo, debitis deserunt officiis exercitationem molestias sint blanditiis in provident id ab veniam dignissimos atque! Aliquid est laudantium nemo, exercitationem cupiditate, praesentium expedita, corrupti minus hic nisi quae incidunt ratione quia inventore repellendus optio eligendi labore a dolore ab. Laudantium!</consectetur></p>
+    </div>
+
+    <p class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quidem illo, labore quia culpa perspiciatis? Harum vero natus similique adipisci unde quidem et. Rerum, iusto possimus pariatur modi neque eum provident nihil quisquam impedit ipsum sit voluptates expedita officiis, deserunt doloribus harum, officia delectus rem.</p>
+  </body>
+</html>

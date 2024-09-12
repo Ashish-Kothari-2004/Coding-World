@@ -1,0 +1,1 @@
+// Q. WAP to input a binary pattern less than or equal to 16 bit and convert it into decimal and hexadecimal number.

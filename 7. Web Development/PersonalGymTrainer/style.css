@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar {
+    position: fixed;
+    z-index: 3;
+    width: 99vw;
+    padding-left: 1px;
+}
+
+ul {
+    border-radius: 12px;
+    display: flex;
+    list-style: none;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 1px 6px 6px;
+
+}
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 59, 127);
+}
+
+a:hover {
+    color: rgb(54, 179, 224);
+}
+
+.img {
+    width: 99vw;
+    z-index: 0;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#homeHeading {
+    position: fixed;
+    z-index: 1;
+    margin-top: 69vh;
+    margin-left: 35vw;
+    font-size: 30px;
+    color: rgb(244, 71, 134);
+
+}
+
+#quote {
+    position: fixed;
+    z-index: 1;
+    margin-top: 76vh;
+    margin-left: 250px;
+    font-size: 25px;
+    color: rgb(244, 71, 134);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.workout-plan {
+    width: 450px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 32px;
+
+}
+
+.workouts1,
+.workouts2 {
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.workouts-name {
+    margin-left: 180px;
+    color: coral;
+}
+
+.workouts-name:hover {
+    color: darkblue;
+}
+
+.diet-plan {
+    width: 450px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 32px;
+
+}
+
+.diet1,
+.diet2 {
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.food-name {
+    margin-left: 180px;
+    color: coral;
+}
+
+.food-name:hover {
+    color: darkblue;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2ed187;
+}
+
+#workout-plan{
+    margin: 70px;
+    margin-top: 0px;
+}
+
+#diet-plan{
+    margin: 70px;
+    margin-top: 0px;
+    margin-bottom: 300px;
+}
+
+#Workout-head{
+    margin-left: 373px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#diet-head{
+    margin-left: 373px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#plan{
+    margin-top: 80px;
+}

@@ -1,0 +1,125 @@
+<!-- 
+1. HTML tables allow web developers to arrange data into rows and columns. 
+3. A table in HTML consists of table cells inside rows and columns.
+4. Each table cell is defined by a <td> and a </td> tag.
+5. Everything between <td> and </td> are the content of the table cell.
+6. Each table row starts with a <tr> and ends with a </tr> tag.
+7. Sometimes you want your cells to be table header cells. In those cases use the <th> tag instead of the <td> tag:
+
+<table>: Used to create table
+<thead>: Defines table head.
+<tbody>: Defines table body.
+
+<tr>: Stands for table row.
+<th>: Stands for table header.
+<td>: Stands for table data.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table in HTML</title>
+  </head>
+  <body>
+    <div>
+      <table border="2px">
+        <caption>
+          Students Data with name, section and roll number
+        </caption>
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Section</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ashish</td>
+            <td>17</td>
+            <td>D1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Aman</td>
+            <td>23</td>
+            <td>E1</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ayush</td>
+            <td>40</td>
+            <td>A1</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Neeraj</td>
+            <td>67</td>
+            <td>G1</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Lovish</td>
+            <td>66</td>
+            <td>H1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <br />
+
+  <div>
+    <table border="3px">
+      <caption>
+        Result of the students
+      </caption>
+      <thead>
+        <tr>
+          <th>S.NO</th>
+          <th>Physics</th>
+          <th>Chemistry</th>
+          <th>Maths</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td rowspan="5">95</td>
+          <td>78</td>
+          <td>90</td>
+          <td rowspan="5">Total = 489</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td colspan="2">90</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>67</td>
+          <td>67</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>34</td>
+          <td>67</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>98</td>
+          <td>98</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="5">Grand Tatal 5+489 = 494</td>
+      </tfoot>
+    </table>
+  </div>
+</html>

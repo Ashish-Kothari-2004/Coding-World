@@ -1,0 +1,5 @@
+# There is a simple np.sort() method for sorting Python NumPy arrays
+
+import numpy as np
+arr = np.array([3, 2, 0, 1])
+print(np.sort(arr))

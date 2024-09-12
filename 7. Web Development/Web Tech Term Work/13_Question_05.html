@@ -1,0 +1,22 @@
+<!-- PROBLEM STATEMENT 13: Write the JavaScript code to reverse the foreground and background colour.  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reverse foreground and background colour </title>
+  </head>
+  <body text="black" bgcolor="white" id="item1" style="text-align: center">
+    <p>This is text...</p>
+    <form name="clr">
+      <input type="button" value="click" onClick="fun()" />
+    </form>
+
+    <script type="text/javascript">
+      function fun() {
+        f = document.fgColor;
+        b = document.bgColor;
+        document.fgColor = b;
+        document.bgColor = f;
+      }
+    </script>
+  </body>
+</html>

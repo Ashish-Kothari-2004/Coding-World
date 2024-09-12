@@ -1,0 +1,1 @@
+// Q. WAP to swap a number using bitwise XOR operator.

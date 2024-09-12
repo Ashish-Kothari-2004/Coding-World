@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"_Chapter_12_Packages_and_javaDocs","c":"_12_4_Creating_java_docs","l":"_12_4_Creating_java_docs()","u":"%3Cinit%3E()"},{"p":"_Chapter_12_Packages_and_javaDocs","c":"_12_4_Creating_java_docs","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone"
+        android:hint="@string/weight"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:inputType="number"/>
+
+  <EditText
+        android:id="@+id/feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone"
+        android:hint="@string/feet"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        />
+
+  <EditText
+        android:id="@+id/inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone"
+        android:hint="@string/inch"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Calculate_BMI"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2196F3"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

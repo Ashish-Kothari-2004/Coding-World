@@ -1,0 +1,5 @@
+23
+true
+23.3
+Ashish
+End of this Demo6.txt file

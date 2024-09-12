@@ -1,0 +1,128 @@
+<!-- 
+CSS Selectors: A CSS selector selects the HTML element or HTML elements you want to style.
+Types of HTML Selector: 
+1. Element Selector or type Selector: 
+The element selector selects HTML elements based on the element name
+
+2. Class Selector: 
+The class selector selects HTML elements with a specific class attribute.
+
+3. Id Selector: 
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+4. Descendant Selector:
+The descendant selector matches all elements that are descendants of a specified element.
+
+5. Chile Selector: 
+The child selector selects all elements that are the children of a specified element.
+
+6. Universal Selector: 
+The * selector selects all elements. The * selector can also select all elements inside another element
+
+7. Pseudo Element Selector: 
+A CSS pseudo-element is used to style specified parts of an element. It can be used to:
+Style the first letter, or line, of an element.
+Insert content before, or after, the content of an element. 
+eg. 
+:: first-letter
+:: first-line
+:: before
+:: after
+:: marker
+:: section
+
+8. Pseudo Class Selector: 
+A pseudo-class is used to define a special state of an element. It can be used to:
+Style an element when a user mouses over it.
+Style visited and unvisited links differently.
+Style an element when it gets focus.
+eg.
+:active
+:checked
+:hover
+:visited
+:focus
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Element Selector  */
+      /* div {
+        background-color: red;
+      } */
+
+      /* Class Selector */
+      /* .second {
+        background-color: blue;
+      } */
+
+      /* Id Selector */
+      /* #third {
+        background-color: yellow;
+      } */
+
+      /* Descendant Selector */
+      /* div p {
+        background-color: rgb(255, 0, 0);
+      } */
+
+      /* Child Selector  */
+      /* div > p {
+        background-color: aqua;
+      } */
+
+      /* Universal Selector */
+      /* * {
+        background-color: black;
+      } */
+
+      /* Pseudo Element Selector */
+      p::first-letter {
+        color: red;
+      }
+      p::first-line {
+        color: rgb(21, 255, 0);
+      }
+      #ap ::after {
+        color: purple;
+      }
+
+      /* Pseudo Class Selector */
+      a:visited{
+        color: orangered;
+      }
+      a:hover{
+        color:blue;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <a href="https://www.google.com">Go to google</a>
+    <div>I am a div</div>
+    <div class="second">I am second div</div>
+    <div class="socond" id="third">
+      I am another div
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        fugiat quis. Et dolor molestiae asperiores consectetur tempora rerum
+        ipsum! Vero consequuntur dolores quo.
+      </p>
+      <article>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          eaque reprehenderit dolores hic exercitationem error ut beatae
+          expedita atque sequi quae quos qui obcaecati, a quas possimus quidem
+          laboriosam esse!
+        </p>
+      </article>
+    </div>
+  </body>
+</html>

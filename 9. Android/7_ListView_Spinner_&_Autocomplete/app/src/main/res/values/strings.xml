@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListView and RecyclerView</string>
+    <string name="select_id_proof">Select An ID Proof</string>
+    <string name="search_here">Search here</string>
+</resources>

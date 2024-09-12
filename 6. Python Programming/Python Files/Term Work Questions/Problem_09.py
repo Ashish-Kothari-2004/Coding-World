@@ -1,0 +1,1 @@
+# 9. Consider a tuple having values integer, decimal and string. Write a python program to delete all decimal values and add 3 character values in it.

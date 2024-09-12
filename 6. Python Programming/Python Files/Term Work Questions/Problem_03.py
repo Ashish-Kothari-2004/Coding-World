@@ -1,0 +1,1 @@
+# 3. Consider a number entered by a user. Now calculate the Factorial of this number.

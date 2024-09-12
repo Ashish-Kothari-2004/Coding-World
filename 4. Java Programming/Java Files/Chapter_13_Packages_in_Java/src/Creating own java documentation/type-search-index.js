@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"_Chapter_12_Packages_and_javaDocs","l":"_12_4_Creating_java_docs"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();

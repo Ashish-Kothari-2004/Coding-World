@@ -1,0 +1,1 @@
+# 12. A shop will give discount of 10% if the cost of purchased quantity is more than 1000 rupees. Now write a python program having a user defined function which will first calculate whether a user purchased quantities more than 1000 rupees or not and then accordingly it will print the total cost for user.

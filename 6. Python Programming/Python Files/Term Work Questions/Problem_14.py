@@ -1,0 +1,1 @@
+# 14. Write a lambda function in python which will multiplies two values (i.e. x*y). Now using this function write a python program to print the table of a number (from 1 to 10) entered by a user.

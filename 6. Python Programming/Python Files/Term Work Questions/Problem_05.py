@@ -1,0 +1,1 @@
+# 5. Write a python program to check whether the number entered by the user is a Perfect number or not.

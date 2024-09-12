@@ -1,0 +1,125 @@
+<!-- 
+6. Form tag: These are the following HTML <form> elements:
+<label>: It defines label for <form> elements.
+<input>: It is used to get input data from the form in various types such as text, password, email, etc by changing its type.
+<button>: It defines a clickable button to control other elements or execute a functionality.
+<select>: It is used to create a drop-down list.
+<textarea>: It is used to get input long text content.
+<fieldset>: It is used to draw a box around other form elements and group the related data.
+<legend>: It defines a caption for fieldset elements.
+<datalist>: It is used to specify pre-defined list options for input controls.
+<output>: It displays the output of performed calculations.
+<option>: It is used to define options in a drop-down list.
+<optgroup>: It is used to define group-related options in a drop-down list.
+
+class: Any element can have one or more than one class and two or more than two element can have same class
+id: id is unique identifier and the id of two or more element cannot be same.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <!-- 
+      Proper use of labels with the elements will benefit:
+      Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).
+        
+      In the lable the value of 'for' and the 'Id' of the input element should be same otherwise lable will not work when user click on the text that is written after the radio buttons.
+      And also the name of the input should be same so that only one radio button can be selected at a time. If the name of the inputs are different then user can select multiple radio buttons.
+    -->
+     <!-- <label> and <input> tag -->
+      <div>
+      <h1>Form in HTML</h1>
+      <form action="form.php">
+        <label for="SectionIdA">
+          <input
+            type="radio"
+            name="Section"
+            value="SectionA"
+            id="SectionIdA"
+          />Section A
+        </label>
+        <label for="SectionIdB">
+          <input
+            type="radio"
+            name="Section"
+            value="SectionB"
+            id="SectionIdB"
+          />Section B
+        </label>
+        <label for="SectionIdC">
+          <input
+            type="radio"
+            name="Section"
+            value="SectionC"
+            id="SectionIdC"
+          />Section C
+        </label>
+        <br />
+      </div>
+
+      <!--
+      Value and name: A string representing the value of the checkbox. This is not displayed on the client-side, but on the server this is the value given to the data submitted with the checkbox's name. For example:
+      We've got a name of 'subscribe', and a value of 'newsletter'. When the form is submitted, the data name/value pair will be subscribe=newsletter.
+    
+      Note: Radio buttons are similar to checkboxes, but with an important distinction — same-named radio buttons are grouped into a set in which only one radio button can be selected at a time, whereas checkboxes allow you to turn single values on and off. Where multiple same-named controls exist, radio buttons allow one to be selected out of them all, whereas checkboxes allow multiple values to be selected.
+      -->
+        <input type="checkbox" name="ashish" id="section1" />
+        <input type="checkbox" name="ashish" id="section2" />
+        <input type="checkbox" name="ashish" id="section3" />
+        <input type="checkbox" name="ashish" id="section4" />
+        <label for="section4">check for section 4</label>
+        <br/>
+        <br/>
+        <label for="date">
+          Select Date:
+          <input type="date" name="ashish" id="date" />
+        </label>
+        <br/>
+        <br/>
+        <input type="file" name="ashish" id="data" />
+        <br/>
+        <br/>
+        <br/>
+
+        <!-- <fieldset> tag-->
+        <fieldset>
+          <legend>HTML Form</legend>
+          <textarea
+            name="textArea"
+            id="TextArea"
+            cols="33"
+            rows="10"
+            placeholder="Enter text "
+          ></textarea>
+          <br />
+          <select name="Car section" id="cars">
+            <option value="omni">Omni</option>
+            <option value="scorpio">scorpio</option>
+            <option value="i10">i10</option>
+            <option value="i20">i20</option>
+            <option value="Swift dzire">Swift dzire</option>
+          </select>
+          <br />
+          <input type="submit" value="Submit" /><br />
+          <input type="button" value="Click me" />
+          <br />
+          <br />
+          <input
+            type="image"
+            src="https://content.presentermedia.com/content/clipart/00010000/10123/glossy_forward_button_up_300_nwm.jpg"
+            alt="summit button"
+            name="submitByimage"
+            id="submit"
+            width="100px"
+          />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

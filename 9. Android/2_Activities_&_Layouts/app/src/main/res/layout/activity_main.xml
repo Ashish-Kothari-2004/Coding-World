@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <Button-->
+<!--        android:id="@+id/btn1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/click_here1"-->
+<!--        android:backgroundTint="#DD3939"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerInParent="true"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/click_here2"-->
+<!--        android:backgroundTint="#1E96CC"-->
+<!--        android:layout_above="@+id/btn1"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+<!--   <Button-->
+<!--        android:id="@+id/btn3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/click_here3"-->
+<!--        android:backgroundTint="#F6B900"-->
+<!--        android:layout_alignStart="@+id/btn2"-->
+<!--        />-->
+
+
+<ImageView
+    android:id="@+id/img1"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:contentDescription="@string/displaying_image"
+    android:src="@drawable/ic_launcher_background"
+    android:scaleType="centerCrop"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="337dp"
+        android:padding="5dp"
+        android:text="@string/About"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="Age"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_your_name"
+        android:gravity="center_horizontal"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>
