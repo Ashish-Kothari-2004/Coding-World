@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Traffic Light Views -->
+    <View
+        android:id="@+id/redLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:id="@+id/yellowLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A0A000"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:id="@+id/greenLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00FF00"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Control Button -->
+    <Button
+        android:id="@+id/controlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Signal" />
+
+</LinearLayout>
