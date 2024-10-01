@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Event Listeners and Handlers</string>
+    <string name="hello_click_the_button">Hello, click the button!</string>
+    <string name="click_me">Click Me</string>
+</resources>

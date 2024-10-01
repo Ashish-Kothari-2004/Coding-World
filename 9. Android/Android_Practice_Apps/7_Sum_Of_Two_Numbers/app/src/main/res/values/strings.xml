@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Sum</string>
-    <string name="enter_first_number">Enter first number</string>
-    <string name="enter_second_number">Enter second number</string>
-    <string name="add_number">Add number</string>
-</resources>

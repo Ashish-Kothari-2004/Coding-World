@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Toast Message</string>
-    <string name="toast_message_using_this_keyword">Toast message using this keyword</string>
-    <string name="toast_message_using_in_built_method">Toast message using in-built method</string>
-</resources>
