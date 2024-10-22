@@ -1,15 +1,10 @@
 package com.example.toastmessage;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);;
@@ -21,7 +16,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Displaying toast message", Toast.LENGTH_LONG).show();
             }
         });
-
-
     }
 }

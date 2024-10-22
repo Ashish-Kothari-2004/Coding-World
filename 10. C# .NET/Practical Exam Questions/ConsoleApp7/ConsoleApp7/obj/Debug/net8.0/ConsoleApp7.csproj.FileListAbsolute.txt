@@ -1,0 +1,15 @@
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.exe
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.deps.json
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.runtimeconfig.json
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.dll
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.pdb
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.AssemblyInfoInputs.cache
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.AssemblyInfo.cs
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.csproj.CoreCompileInputs.cache
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.sourcelink.json
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.dll
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\refint\ConsoleApp7.dll
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.pdb
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ConsoleApp7.genruntimeconfig.cache
+D:\Coding_World\10. C# .NET\Practical Exam Questions\ConsoleApp7\ConsoleApp7\obj\Debug\net8.0\ref\ConsoleApp7.dll

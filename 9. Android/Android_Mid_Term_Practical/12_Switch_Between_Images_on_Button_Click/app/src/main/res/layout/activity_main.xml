@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp">
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="250dp"
@@ -13,18 +12,15 @@
         android:src="@drawable/avatar1"
         android:contentDescription="@string/image_placeholder"
         android:layout_marginBottom="20dp" />
-
     <Button
         android:id="@+id/buttonImage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/show_image_1" />
-
     <Button
         android:id="@+id/buttonImage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/show_image_2"
         android:layout_marginTop="10dp" />
-
 </LinearLayout>

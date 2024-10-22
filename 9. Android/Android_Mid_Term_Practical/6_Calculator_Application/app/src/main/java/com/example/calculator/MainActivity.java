@@ -1,29 +1,22 @@
 package com.example.calculator;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-
 public class MainActivity extends AppCompatActivity {
-
     // TextView to display the result
     TextView resultText;
     String currentOperator = "";
     String currentNumber = "";
     double operand1 = 0, operand2 = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         resultText = findViewById(R.id.resultText);
-
         // Numeric buttons (0-9)
         int[] numberButtons = {R.id.btn0, R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5, R.id.btn6, R.id.btn7, R.id.btn8, R.id.btn9};
-
         // Set OnClickListener for numeric buttons
         for (int id : numberButtons) {
             findViewById(id).setOnClickListener(new View.OnClickListener() {
@@ -35,13 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
         // Operator buttons
         findViewById(R.id.btnAdd).setOnClickListener(new OperatorClickListener("+"));
         findViewById(R.id.btnSubtract).setOnClickListener(new OperatorClickListener("-"));
         findViewById(R.id.btnMultiply).setOnClickListener(new OperatorClickListener("*"));
         findViewById(R.id.btnDivide).setOnClickListener(new OperatorClickListener("/"));
-
         // Clear button
         findViewById(R.id.btnClear).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 resultText.setText("0");
             }
         });
-
         // Equal button to perform calculation
         findViewById(R.id.btnEqual).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,15 +78,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     // Custom OnClickListener for operator buttons
     private class OperatorClickListener implements View.OnClickListener {
         private final String operator;
-
         OperatorClickListener(String operator) {
             this.operator = operator;
         }
-
         @Override
         public void onClick(View view) {
             if (!currentNumber.equals("")) {
