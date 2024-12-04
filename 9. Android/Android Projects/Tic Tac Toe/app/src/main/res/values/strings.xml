@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="image">Image</string>
+    <string name="replay">Replay Game</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+</resources>

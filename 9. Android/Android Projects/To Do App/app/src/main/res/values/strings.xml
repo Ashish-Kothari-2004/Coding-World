@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <string name="task">Task</string>
+    <string name="to_do_list_app_keep_trak_of_all_your_tasks">To Do List App: Keep Trak of all your tasks</string>
+</resources>

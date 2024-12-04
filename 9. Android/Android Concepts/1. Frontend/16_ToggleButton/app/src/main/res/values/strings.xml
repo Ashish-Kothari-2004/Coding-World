@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToggleButton</string>
+    <string name="dark_mode">Dark mode on/off </string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertBox</string>
+    <string name="click_here_for_1_button_alertbox">Click here for 1 button AlertBox</string>
+    <string name="click_here_for_2_button_alertbox">Click here for 2 button AlertBox</string>
+</resources>

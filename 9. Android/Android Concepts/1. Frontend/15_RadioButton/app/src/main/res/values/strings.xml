@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="full_form_of_json">Full form of JSON ?</string>
+    <string name="javascript_object_notation">JavaScript Object Notation</string>
+    <string name="javascript_of_notation">JavaScript of Notation</string>
+    <string name="submit">Submit</string>
+</resources>
