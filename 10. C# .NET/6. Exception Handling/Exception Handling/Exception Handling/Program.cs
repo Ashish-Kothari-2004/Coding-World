@@ -41,7 +41,6 @@
 using System;
 class DivByZero : Exception
 {
-
     // Constructor
     public DivByZero()
     {
@@ -55,7 +54,6 @@ class Program
     {
         if (denominator == 0)
         throw new DivByZero();
-
         return numerator / denominator;
     }
 
