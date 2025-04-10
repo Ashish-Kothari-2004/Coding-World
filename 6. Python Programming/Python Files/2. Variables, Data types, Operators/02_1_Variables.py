@@ -1,12 +1,12 @@
 # Data Type in Python 
 # 1. int, float, complex 
 # 2. string
-# 3. list, tuple, dict, set, frozenset, range 
+# 3. list, tuple, dict, set, frozenset, range
 # 4. bool
 # 5. bytes, bytearray, memoryview
 # 6. NoneType
 
-a = "Ashish" # --> Data type string  
+a = "Ashish" # --> Data type string
 a = 'Ashish'# --> Data type string
 a = '''Ashish
 is 

@@ -1,4 +1,5 @@
 # Python slicing: Python slicing is about obtaining a sub-string from the given string by slicing it respectively from start to end.
+
 # Python slicing can be done in two ways:
 # A. Using a slice() method
 # Syntax:
