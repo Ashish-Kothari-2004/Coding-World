@@ -1,15 +1,16 @@
 <!-- 
 6. Form tag: These are the following HTML <form> elements:
+<form>: Used to create form.
+<fieldset>: It is used to draw a box around other form elements and group the related data. 
+<legend>: It defines a caption for fieldset elements.
 <label>: It defines label for <form> elements.
 <input>: It is used to get input data from the form in various types such as text, password, email, etc by changing its type.
-<button>: It defines a clickable button to control other elements or execute a functionality.
 <select>: It is used to create a drop-down list.
+<option>: It is used to define options in a drop-down list.
 <textarea>: It is used to get input long text content.
-<fieldset>: It is used to draw a box around other form elements and group the related data.
-<legend>: It defines a caption for fieldset elements.
+<button>: It defines a clickable button to control other elements or execute a functionality.
 <datalist>: It is used to specify pre-defined list options for input controls.
 <output>: It displays the output of performed calculations.
-<option>: It is used to define options in a drop-down list.
 <optgroup>: It is used to define group-related options in a drop-down list.
 
 class: Any element can have one or more than one class and two or more than two element can have same class
@@ -29,7 +30,7 @@ id: id is unique identifier and the id of two or more element cannot be same.
       Proper use of labels with the elements will benefit:
       Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).
         
-      In the lable the value of 'for' and the 'Id' of the input element should be same otherwise lable will not work when user click on the text that is written after the radio buttons.
+      In the label the value of 'for' and the 'Id' of the input element should be same otherwise label will not work when user click on the text that is written after the radio buttons.
       And also the name of the input should be same so that only one radio button can be selected at a time. If the name of the inputs are different then user can select multiple radio buttons.
     -->
      <!-- <label> and <input> tag -->
@@ -99,6 +100,7 @@ id: id is unique identifier and the id of two or more element cannot be same.
           ></textarea>
           <br />
           <select name="Car section" id="cars">
+            <option selected disabled>Select One Car</option>
             <option value="omni">Omni</option>
             <option value="scorpio">scorpio</option>
             <option value="i10">i10</option>
